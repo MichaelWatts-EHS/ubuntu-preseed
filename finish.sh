@@ -11,16 +11,16 @@ mkdir /target/_post/
 #rm /_post/EOTSS_Azure.pulsepreconfig
 
 # Prep the Horizon client settings
-#mkdir /etc/vmware/
-#echo 'view.allowautoConnectBroker=FALSE' > /etc/vmware/view-mandatory-config
-#echo 'view.allowdefaultBroker=FALSE' >> /etc/vmware/view-mandatory-config   
-#echo 'view.autoConnectBroker="vdi.ehs.govt.state.ma.us"' > /etc/vmware/view-default-config
-#echo 'view.defaultBroker="vdi.ehs.govt.state.ma.us"' >> /etc/vmware/view-default-config
-#echo 'view.defaultDesktop="Standard Desktop"' >> /etc/vmware/view-default-config
-#echo 'view.autoConnectDesktop=TRUE' >> /etc/vmware/view-default-config
-#echo 'view.fullScreen=TRUE' >> /etc/vmware/view-default-config
-#echo 'view.nomenubar=TRUE' >> /etc/vmware/view-default-config
-#echo 'view.once=TRUE' >> /etc/vmware/view-default-config   
+mkdir /etc/vmware/
+echo 'view.allowautoConnectBroker=FALSE' > /etc/vmware/view-mandatory-config
+echo 'view.allowdefaultBroker=FALSE' >> /etc/vmware/view-mandatory-config   
+echo 'view.autoConnectBroker="vdi.ehs.govt.state.ma.us"' > /etc/vmware/view-default-config
+echo 'view.defaultBroker="vdi.ehs.govt.state.ma.us"' >> /etc/vmware/view-default-config
+echo 'view.defaultDesktop="Standard Desktop"' >> /etc/vmware/view-default-config
+echo 'view.autoConnectDesktop=TRUE' >> /etc/vmware/view-default-config
+echo 'view.fullScreen=TRUE' >> /etc/vmware/view-default-config
+echo 'view.nomenubar=TRUE' >> /etc/vmware/view-default-config
+echo 'view.once=TRUE' >> /etc/vmware/view-default-config   
 
 # VMware Horizon View
 #echo 'Installing VMware Horizon View Client'
